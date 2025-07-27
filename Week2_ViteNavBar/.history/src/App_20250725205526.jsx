@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 // allows Navbar function to be imported from from Navbar.jsx file
-// Did not need for week 2: import Navbar from './components/Navbar' 
+// Did not need: import Navbar from './components/Navbar' 
 
 function App() {
   const [count, setCount] = useState(0)

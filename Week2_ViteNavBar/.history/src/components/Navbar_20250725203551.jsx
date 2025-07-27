@@ -24,4 +24,4 @@ function Navbar() {
     )
 }
 
-export default Navbar; // this allows the Navbar function to be exported to App.jsx
+export default Navbar; // this allows the Navbar function to be exported to App.jdx
