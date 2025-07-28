@@ -2,16 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar' 
+import CustomNavBar from './components/CustomNavBar' // week3: import component
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* week2 resubmit2: moved this to top */}
-      <Navbar /> 
-
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -20,10 +17,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      {/* this tells React to render Navbar.jsx component right here 
-       on page below Vite and React links and logos */}
-      
-      <h1>Vite + React</h1>
+      <CustomNavBar />  {/* week3: This renders your Bootstrap-based CustomNavBar */}
+      <h1>Vvite + Rreact</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

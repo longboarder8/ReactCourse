@@ -9,9 +9,7 @@ function App() {
 
   return (
     <>
-      {/* week2 resubmit2: moved this to top */}
       <Navbar /> 
-
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

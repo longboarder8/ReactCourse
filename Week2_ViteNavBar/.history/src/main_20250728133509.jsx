@@ -7,7 +7,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 
 // week2 resubmit2: moved Navbar to top
-import './NavBarFix.css';
+import './NavBarFix.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

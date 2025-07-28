@@ -9,9 +9,6 @@ function App() {
 
   return (
     <>
-      {/* week2 resubmit2: moved this to top */}
-      <Navbar /> 
-
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -22,7 +19,7 @@ function App() {
       </div>
       {/* this tells React to render Navbar.jsx component right here 
        on page below Vite and React links and logos */}
-      
+      <Navbar /> 
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>

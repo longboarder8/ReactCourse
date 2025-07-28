@@ -2,16 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar' 
+// allows Navbar function to be imported from from Navbar.jsx file
+// Did not need for week 2: import Navbar from './components/Navbar' 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* week2 resubmit2: moved this to top */}
-      <Navbar /> 
-
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -22,7 +20,7 @@ function App() {
       </div>
       {/* this tells React to render Navbar.jsx component right here 
        on page below Vite and React links and logos */}
-      
+      <Navbar /> 
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
