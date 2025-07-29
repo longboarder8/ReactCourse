@@ -1,0 +1,11 @@
+/* added for week2 -resubmit2; move navbar to top */
+.navbar {
+    margin-top: 0 !important;
+    top: 0 !important;
+    position: fixed !important;
+}
+
+.navbar .nav {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
