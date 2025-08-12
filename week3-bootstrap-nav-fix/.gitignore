@@ -32,16 +32,3 @@ dist-ssr
 .DS_Store
 Thumbs.db
 
-# Vite / tooling caches
-.vite/
-.parcel-cache/
-
-# VS Code history (can explode in size)
-.history/
-
-# Env + more logs
-.env
-*.log
-
-# Windows / OneDrive extras
-desktop.ini
